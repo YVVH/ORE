@@ -1,0 +1,14 @@
+{
+    "model_name": "Qwen2.5-7B",
+    "unfreeze_layers": [9, 18, 24, 26],
+    "epochs": 30,
+    "batch_size": 16,
+    "lr": 5e-4,
+    "lr_min": 2e-6,
+    "kl_coef": 2.0,
+    "ce_coef": 1.0,
+    "orth_coef": 3.0,
+    "unrel_rank": 4,
+    "proj_dim": 256,
+    "orth_method": "last_token"
+}
