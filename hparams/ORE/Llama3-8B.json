@@ -9,6 +9,6 @@
     "ce_coef": 1.0,
     "orth_coef": 3.0,
     "unrel_rank": 4,
-    "proj_dim": 256,
+    "proj_dim": 128,
     "orth_method": "last_token"
 }
