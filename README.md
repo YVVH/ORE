@@ -50,6 +50,20 @@ python -m experiments.summarize --dir_name=ORE --runs=run_<id>
 
 ## Citation
 
+If you find this work useful, please cite:
+
+```bibtex
+@misc{yu2026orthogonalrepresentationeditingdecoupling,
+      title={Orthogonal Representation Editing: Decoupling Semantic Entanglement in Batch Knowledge Editing of LLMs}, 
+      author={Wenhao Yu and Zhicong Lu and Bo Lv and Fangyin Ma and Kaiwen Wei and Shihao Yang and Nayu Liu},
+      year={2026},
+      eprint={2606.22627},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.22627}, 
+}
+```
+
 ## Acknowledgments
 
 This codebase builds on [AlphaEdit](https://github.com/jianghoucheng/AlphaEdit), and
